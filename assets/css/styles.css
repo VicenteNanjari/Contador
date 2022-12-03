@@ -1,0 +1,44 @@
+@font-face{
+    font-family: 'Milky Coffee';
+    src: url('/assets/Milky\ Coffee.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+*{
+    text-transform: uppercase;;
+    font-family: Milky Coffee;
+    background-color: rgb(233, 220, 236);
+}
+
+
+body{
+    text-align: center;
+    padding-top: 10%;
+    font-size: 25px;
+} 
+
+#value{
+    font-size: 50px;
+    
+}
+.button-container{
+    padding-top: 4%;
+}
+.btn{
+    padding: 1%;
+    background-color:rgb(142, 205, 200);
+    border-radius: 5px;
+    border-color: darkgreen;
+    border-width: 3px;
+}
+.button-save{
+    padding-top: 2%;
+    padding-right: 1.5px;
+}
+.margen {
+    border-width: 5px;
+    border-style:dashed;
+    border-color: rgb(0, 0, 0);
+    box-shadow: 3px black;
+}
